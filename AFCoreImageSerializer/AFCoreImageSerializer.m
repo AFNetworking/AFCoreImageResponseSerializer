@@ -20,6 +20,8 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
+#import "AFCoreImageSerializer.h"
+
 @interface AFCoreImageSerializer ()
 @property (readwrite, nonatomic, strong) CIContext *context;
 @property (readwrite, nonatomic, strong) NSDictionary *options;

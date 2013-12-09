@@ -22,12 +22,12 @@
 
 #import <CoreImage/CoreImage.h>
 
-#import "AFSerialization.h"
+#import "AFURLResponseSerialization.h"
 
 /**
  `AFCoreImageSerializer` is a subclass of `AFImageSerializer` that applies a set of Core Image filters to response images.
  */
-@interface AFCoreImageSerializer : AFImageSerializer
+@interface AFCoreImageSerializer : AFImageResponseSerializer
 
 /**
  The Core Image filters applied by the serializer.
